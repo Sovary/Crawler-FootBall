@@ -1,0 +1,8 @@
+Sys Requirment
+
+Python 3.3+ or early
+Package: selenium, lxml, pymysql...
+Driver: PhantomJS
+
+
+#RUN python3 Spider.py
