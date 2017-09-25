@@ -1,7 +1,7 @@
 
 import Craw
 import sys
-import gc
+
 from lxml import html
 import time
 class Spider(Craw.Craw):
@@ -107,6 +107,7 @@ class Spider(Craw.Craw):
 				self.__loot.append({"MATCH":match,"DATA":ar_match})
 				#gc.collect()
 
+				#testing element
 				if(i_polblock ==5):
 					break
 				
